@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Sistema de diseño de A Tu Paso
+   ------------------------------------------------------------
+   - Paleta de marca: salvia / terracota / crema / tinta.
+     Nunca blanco puro, nunca negro absoluto.
+   - Las variantes oscuras (salvia-700/800/900, terracota-700/800)
+     existen para garantizar contraste AA (≥ 4,5:1) en texto y
+     botones. El tono de marca (#7A9E7E, #D98E73) se reserva para
+     superficies, ilustraciones y acentos grandes.
+   ============================================================ */
+
+@theme {
+  /* Fondos: crema como base, crema-claro para superficies elevadas */
+  --color-crema: #f5f1e8;
+  --color-crema-claro: #fbf8f1;
+
+  /* Texto: tinta cálida en lugar de negro */
+  --color-tinta: #33302b;
+  --color-tinta-suave: #5f5a4f;
+
+  /* Verde salvia (color principal) */
+  --color-salvia-100: #e7ede5;
+  --color-salvia-200: #cfdccd;
+  --color-salvia-300: #adc2ac;
+  --color-salvia-400: #8fae92;
+  --color-salvia-500: #7a9e7e; /* tono de marca */
+  --color-salvia-600: #628367;
+  --color-salvia-700: #4d6a52;
+  --color-salvia-800: #3e5643;
+  --color-salvia-900: #2f4234;
+
+  /* Terracota cálido (acento) */
+  --color-terracota-100: #f7e6dc;
+  --color-terracota-200: #efd0bf;
+  --color-terracota-300: #e5b29a;
+  --color-terracota-500: #d98e73; /* tono de marca */
+  --color-terracota-700: #a9563a;
+  --color-terracota-800: #8c452e;
+
+  /* Tipografía: Fraunces para titulares, Inter para texto.
+     Las variables --font-fraunces / --font-inter las inyecta next/font. */
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+
+  /* Sombras suaves, nunca duras */
+  --shadow-suave: 0 10px 40px -12px rgb(51 48 43 / 0.14);
+  --shadow-tarjeta: 0 20px 60px -20px rgb(51 48 43 / 0.18);
+}
+
+/* El público es mayor: el cuerpo de texto parte de 18 px.
+   Al subir el tamaño raíz, toda la escala rem de Tailwind crece con él. */
+html {
+  font-size: 112.5%; /* 1rem = 18px */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: var(--color-crema);
+  color: var(--color-tinta);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Los anclajes (#precio, #como-funciona…) dejan hueco para la cabecera fija */
+[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+/* Foco visible y generoso en todo el sitio (accesibilidad AA) */
+:focus-visible {
+  outline: 3px solid var(--color-terracota-700);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Selección de texto en colores de marca */
+::selection {
+  background-color: var(--color-salvia-200);
+  color: var(--color-tinta);
+}
