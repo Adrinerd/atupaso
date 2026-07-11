@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Favicon de A Tu Paso: la hoja de la marca sobre verde salvia -->
+  <rect width="64" height="64" rx="16" fill="#3e5643"/>
+  <path d="M50 13C29 14 14.5 27.5 13.5 50 36 49 49 34.5 50 13Z" fill="none" stroke="#f5f1e8" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M15.5 48C24 37 35 26 45.5 17.5" fill="none" stroke="#f5f1e8" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+</svg>
