@@ -8,7 +8,7 @@ personas de 55 a 75 años que quieren volver a moverse poco a poco.
 
 - [Next.js 15](https://nextjs.org) (App Router) + React 19 + TypeScript
 - [Tailwind CSS 4](https://tailwindcss.com)
-- Stripe Checkout (suscripción mensual) — _se integra en la Fase 2_
+- [Stripe Checkout](https://stripe.com/es/payments/checkout) (suscripción mensual de 6,95 €)
 - Preparado para desplegar en [Vercel](https://vercel.com)
 
 ## Ejecutar en local
@@ -29,6 +29,24 @@ npm run build
 npm start
 ```
 
+## Configurar Stripe (pagos)
+
+La landing funciona sin Stripe, pero el botón de suscripción necesita dos
+variables de entorno para redirigir a la pasarela de pago:
+
+1. Copia `.env.example` a `.env.local`.
+2. Rellena `STRIPE_SECRET_KEY` y `STRIPE_PRICE_ID` siguiendo las
+   instrucciones comentadas dentro del propio archivo.
+3. Reinicia `npm run dev`.
+
+Para probar sin cobrar de verdad, usa las claves de **modo test** y la
+tarjeta de prueba `4242 4242 4242 4242` (cualquier fecha futura y CVC).
+
+El número de WhatsApp se captura durante el propio pago: Stripe pide el
+teléfono del comprador (validado) y un campo opcional recoge el número de
+la persona que recibirá los mensajes cuando es un regalo. Todo queda en el
+panel de Stripe, que es la fuente de verdad de suscriptores.
+
 ## Estructura del proyecto
 
 ```
@@ -37,7 +55,9 @@ src/
 │   ├── layout.tsx          # Tipografías, SEO, JSON-LD, esqueleto HTML
 │   ├── page.tsx            # La landing (composición de secciones)
 │   ├── globals.css         # Sistema de diseño (colores, tipografía, a11y)
-│   ├── api/checkout/       # Ruta de suscripción (Stripe en la Fase 2)
+│   ├── api/checkout/       # Crea la sesión de Stripe Checkout y redirige
+│   ├── gracias/            # Vuelta de un pago completado
+│   ├── cancelado/          # Vuelta de un pago cancelado o fallido
 │   ├── aviso-legal/        # Página legal (plantilla, completar datos)
 │   └── privacidad/         # Política de privacidad (plantilla)
 ├── components/
@@ -65,9 +85,9 @@ Tipografías: **Fraunces** (titulares) e **Inter** (texto), servidas con
 
 ## Pendiente (próximas fases)
 
-- **Fase 2**: Stripe Checkout, captura del número de WhatsApp, páginas de
-  gracias y cancelado, `.env.example`.
 - **Fase 3**: despliegue en Vercel, dominio y configuración de Stripe en
   producción.
+- Más adelante: webhooks de Stripe, envío real por WhatsApp (API) y base de
+  datos de suscriptores.
 - Completar los datos del titular en `aviso-legal` y `privacidad`.
 - Sustituir `hola@atupaso.es` por el correo definitivo en `src/lib/site.ts`.

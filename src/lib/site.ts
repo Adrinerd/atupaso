@@ -10,13 +10,15 @@ export const site = {
   url: "https://atupaso.es",
   title: "A Tu Paso — Tres minutos al día para volver a moverte",
   description:
-    "Cada mañana recibes en tu WhatsApp una pequeña acción de unos 3 minutos para cuidar tu cuerpo. Pensado para personas de 55 a 75 años. Sin aplicaciones, sin gimnasios, sin prisas. 7 €/mes, sin permanencia.",
+    "Cada mañana recibes en tu WhatsApp una pequeña acción de unos 3 minutos para cuidar tu cuerpo, adaptada a tu punto de partida. Pensado para personas de 55 a 75 años. Sin aplicaciones, sin gimnasios, sin prisas. 6,95 €/mes, sin permanencia.",
   /** Correo de contacto visible en el pie. Sustituir por el definitivo. */
   contactEmail: "hola@atupaso.es",
   price: {
-    /** Importe mensual en euros, ya con IVA. */
-    monthly: 7,
-    display: "7 €/mes",
+    /** Importe mensual en euros, ya con IVA (para JSON-LD y Stripe). */
+    monthly: 6.95,
+    /** Importe formateado a la española, para mostrar en la web. */
+    amountDisplay: "6,95 €",
+    display: "6,95 €/mes",
   },
 } as const;
 

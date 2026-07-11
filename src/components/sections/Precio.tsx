@@ -12,7 +12,8 @@ import { site } from "@/lib/site";
 const included = [
   "Un mensaje cada día, los 365 días del año",
   "Acciones de unos 3 minutos, suaves y seguras",
-  "Pensado para personas de 55 a 75 años",
+  "Adaptado a tu punto de partida, empieces donde empieces",
+  "Tu cuenta de días, que solo suma y nunca se pone a cero",
   "Para ti o para regalar a quien quieres cuidar",
   "Sin permanencia: cancelas cuando quieras",
 ];
@@ -37,7 +38,7 @@ export function Precio() {
 
           <p className="mt-4 flex items-baseline gap-2">
             <span className="font-display text-6xl font-semibold tracking-tight text-tinta">
-              {site.price.monthly} €
+              {site.price.amountDisplay}
             </span>
             <span className="text-xl text-tinta-suave">al mes</span>
           </p>

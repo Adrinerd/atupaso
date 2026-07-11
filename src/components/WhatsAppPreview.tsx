@@ -67,11 +67,12 @@ export function WhatsAppPreview() {
           </Bubble>
           <Bubble from="atupaso" time="9:02">
             Hoy toca algo sencillo: levántate de la silla y vuelve a sentarte,
-            despacio, cinco veces. Si necesitas apoyar las manos, apóyalas.
-            Descansa entre una y otra.
+            despacio, cinco veces. Si necesitas apoyar las manos, apóyalas. Y
+            si te resulta fácil, prueba a hacerlo aún más despacio.
           </Bubble>
           <Bubble from="atupaso" time="9:03">
-            Eso es todo. Mañana seguimos, a tu paso. 🤍
+            Eso es todo. Ya llevas 24 días cuidándote 🌱 Mañana seguimos, a tu
+            paso. 🤍
           </Bubble>
           <Bubble from="persona" time="10:47">
             Hecho 😊

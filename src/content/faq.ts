@@ -17,6 +17,11 @@ export const faqItems: FaqItem[] = [
       "Sí. A Tu Paso está pensado justo para eso. No empezamos donde están los demás: empezamos donde estás tú. Levantarte de una silla con calma, mover los hombros, respirar mejor. Si puedes con tu día a día, puedes con esto.",
   },
   {
+    question: "¿Y si los ejercicios no son de mi nivel?",
+    answer:
+      "Empezamos donde estás tú. Al suscribirte respondes a unas pocas preguntas sencillas sobre tu punto de partida, y con eso elegimos tus primeros momentos. Después, según te vayan resultando, los vamos ajustando. Además, cada acción trae una versión más suave y otra un poco más viva: tú decides cada día hasta dónde.",
+  },
+  {
     question: "¿Tengo que instalar alguna aplicación?",
     answer:
       "No. Todo llega por WhatsApp, la misma aplicación que ya usas para hablar con tu familia. No hay nada que descargar, ninguna contraseña nueva que recordar y ningún aparato que comprar.",
@@ -29,7 +34,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "¿Qué pasa si un día no lo hago?",
     answer:
-      "No pasa nada. No hay rachas que perder, ni puntos, ni nadie que te riña. Al día siguiente te llega tu momento de hoy, como siempre. La constancia se construye con amabilidad, no con culpa.",
+      "No pasa nada. Tu cuenta de días no baja ni se pone a cero: se queda esperándote, y cuando vuelves sigue sumando. Al día siguiente te llega tu momento de hoy, como siempre, sin reproches. La constancia se construye con amabilidad, no con culpa.",
   },
   {
     question: "¿A qué hora llega el mensaje?",

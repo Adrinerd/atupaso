@@ -11,7 +11,7 @@ import { Container } from "@/components/ui/Container";
  */
 const guarantees = [
   "Funciona en el WhatsApp que ya usan: no tendrás que instalarles nada ni hacer de soporte técnico.",
-  "Acciones suaves y seguras, explicadas con un lenguaje cercano, sin jerga deportiva.",
+  "Acciones suaves y seguras, adaptadas a su punto de partida, explicadas con un lenguaje cercano y sin jerga deportiva.",
   "Lo cancelas cuando quieras, sin permanencia ni explicaciones.",
 ];
 

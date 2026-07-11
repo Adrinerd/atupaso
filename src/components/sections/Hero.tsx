@@ -1,6 +1,7 @@
 import { WhatsAppPreview } from "@/components/WhatsAppPreview";
 import { LinkButton } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
+import { site } from "@/lib/site";
 
 /**
  * Hero: la promesa de la marca, sin rodeos.
@@ -37,7 +38,8 @@ export function Hero() {
                 Quiero empezar hoy
               </LinkButton>
               <p className="mt-4 text-base text-tinta-suave">
-                7 € al mes · Sin permanencia · Cancelas cuando quieras
+                {site.price.amountDisplay} al mes · Sin permanencia · Cancelas
+                cuando quieras
               </p>
             </div>
           </div>
