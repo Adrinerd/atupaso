@@ -1,0 +1,14 @@
+# Configuración del proyecto Supabase (CLI)
+project_id = "atupaso"
+
+# Los webhooks de terceros llegan sin JWT de Supabase:
+# su seguridad es la firma criptográfica de cada proveedor.
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.wa-webhook]
+verify_jwt = false
+
+# El dispatcher solo lo invoca pg_cron con la clave de servicio.
+[functions.dispatcher]
+verify_jwt = true

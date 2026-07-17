@@ -1,8 +1,15 @@
-# A Tu Paso — Landing
+# A Tu Paso
 
-Landing page de **A Tu Paso**: un servicio de suscripción que envía cada día,
-por WhatsApp, una pequeña acción de salud de unos 3 minutos, pensada para
-personas de 55 a 75 años que quieren volver a moverse poco a poco.
+Servicio de suscripción que envía cada día, por WhatsApp, una pequeña acción
+de salud de unos 3 minutos, pensada para personas de 55 a 75 años que quieren
+volver a moverse poco a poco.
+
+Este repositorio contiene la **landing** (Next.js) y el **backend** (Supabase).
+Este README cubre la puesta en marcha técnica; para entender el proyecto,
+empieza por la documentación:
+
+- 🧭 **[CLAUDE.md](CLAUDE.md)** — memoria de arranque e índice del repositorio.
+- 📚 **[docs/](docs/README.md)** — proyecto, guía de marca, arquitectura y decisiones.
 
 ## Stack
 
