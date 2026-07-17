@@ -32,6 +32,9 @@ La numeración de fases del backend y su alcance están en
 ```
 atupaso/
 ├── CLAUDE.md              # este archivo (memoria de arranque)
+├── .claude/
+│   └── agents/            # agentes especializados reutilizables
+│       └── growth-content.md  #   contenido de vídeo para Facebook/Instagram
 ├── docs/                  # la fuente de la verdad documental
 │   ├── README.md          #   índice de la documentación
 │   ├── PROYECTO.md        #   qué es el negocio, público, promesa
@@ -70,6 +73,13 @@ atupaso/
    `docs/`, confirmar en qué punto estamos, y continuar. Ningún chat parte de cero.
 5. **Antes de tocar la marca o el copy**, consultar `docs/GUIA-DE-MARCA.md`.
    Las palabras prohibidas son prohibidas de verdad.
+
+## Agentes disponibles
+
+- **`growth-content`** — experto en growth marketing y creación de contenido
+  de vídeo. Genera guiones, ganchos y copy de vídeos (Reels, in-feed, Stories)
+  para Facebook e Instagram, optimizados para consideración y conversión, con
+  la voz de marca. Definición en `.claude/agents/growth-content.md`.
 
 ## Comandos útiles
 
