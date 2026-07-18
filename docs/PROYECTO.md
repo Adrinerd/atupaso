@@ -32,14 +32,29 @@ alguien como yo".
 
 ## A quién servimos
 
-**Usuario final** — persona de 55 a 75 años, sedentaria, que quiere volver a
-cuidarse pero teme no ser capaz o hacer el ridículo. Valora la cercanía, la
-sencillez y que nadie la juzgue. Usa WhatsApp a diario para hablar con su familia.
+**Usuario final** — persona de **55 a 75 años**, que hace años que no hace
+ejercicio.
 
-**Comprador secundario** — hijo o hija de 35 a 55 años que quiere ayudar a sus
-padres a moverse y se siente impotente por no poder estar cada día. Compra el
-servicio como forma de cuidar desde la distancia. Es un canal de venta propio,
-con su propia sección en la landing y la opción de regalo en el pago.
+- **No necesita motivación. Necesita esperanza.**
+- Qué siente: "He dejado pasar demasiado tiempo."
+- Qué piensa: "Ya no estoy para estas cosas."
+- Qué teme: lesionarse, hacer el ridículo, no ser capaz, abandonar otra vez.
+- Qué desea: moverse mejor, subir escaleras, jugar con los nietos, dormir
+  mejor, no cansarse, sentirse útil.
+
+No piensa en abdominales. Piensa en **vivir**. Valora la cercanía, la sencillez
+y que nadie la juzgue. Usa WhatsApp a diario para hablar con su familia.
+
+**Comprador secundario** — hijo o hija de **35 a 55 años** que muchas veces es
+quien busca soluciones para sus padres y se siente impotente por no poder estar
+cada día. Compra el servicio como forma de cuidar desde la distancia. Es un
+canal de venta propio, con su propia sección en la landing y la opción de
+regalo en el pago.
+
+## Propuesta de valor
+
+No vendemos ejercicios. Vendemos **tranquilidad, autonomía, calidad de vida y
+pequeños avances**. La emoción que producimos es **alivio**, no motivación.
 
 ## La promesa
 

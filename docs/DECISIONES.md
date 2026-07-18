@@ -86,6 +86,47 @@ versionado (Supabase Edge Functions + SQL). n8n queda para avisos e informes.
 depurar; deuda técnica hacia los 1.000 usuarios.
 **Alternativa descartada:** n8n como orquestador central del negocio.
 
+## 2026-07 — Nombre de marca: "A Tu Paso" (no "Tresminutos")
+
+**Decisión:** la marca se llama **A Tu Paso**.
+**Motivo:** encarna la idea organizadora de la marca ("empieza donde estás", "a
+tu ritmo", "poco a poco") y transmite acompañamiento y calma sin prometer
+esfuerzo. Es el nombre con el que se construyó la landing (en producción), el
+repositorio y el backend.
+**Alternativa descartada:** el documento maestro de marca recomendaba
+"Tresminutos" (con alternativas Poco a Poco / Cada Día), por poner la promesa en
+el nombre. Ese documento es anterior a la elección de "A Tu Paso"; se mantiene
+"A Tu Paso" como nombre definitivo. La promesa de los tres minutos sigue viva en
+el copy, no en el nombre.
+
+## 2026-07 — Nomenclatura de cara al público: "momento de hoy", "camino", "días"
+
+**Decisión:** la palabra "reto" es solo mecánica interna; nunca se usa de cara
+al público. De cara al usuario: la acción diaria es **"tu momento de hoy"**, la
+progresión es **"tu camino"**, y la constancia son **"tus días"** (que suman).
+**Motivo:** "reto" suena a esfuerzo, exigencia y competición — intimidante para
+el público. "Tu momento de hoy" convierte el ejercicio en un regalo, no una tarea.
+**Alternativa descartada:** usar "reto" como eje del mensaje de marketing.
+
+## 2026-07 — Backend: Cloud API directa de Meta (no un BSP)
+
+**Decisión:** integrar directamente la WhatsApp Business Cloud API de Meta, sin
+intermediario (BSP) al inicio.
+**Motivo:** menos coste y una dependencia menos; la Cloud API oficial cubre las
+necesidades de la Fase 1. Si en el futuro hiciera falta soporte multi-canal o
+mayor volumen, un BSP (360dialog/Twilio) encaja sin rediseñar (el canal es un
+adaptador aislado en el código).
+**Alternativa descartada:** arrancar con un BSP, como sugería el plan inicial.
+
+## 2026-07 — Estrategia go-to-market: cobrar antes de automatizar
+
+**Decisión:** el orden de negocio es cobro primero (landing + Stripe) → entrega
+manual a los primeros clientes → automatización completa → escala.
+**Motivo:** el riesgo mayor es construir antes de validar. Dejar que Stripe diga
+la verdad sobre si alguien paga el mes 2 antes de invertir en automatización y
+paid media. Documentado en `PLAN-DE-NEGOCIO.md` §11.
+**Alternativa descartada:** automatizar todo el sistema antes de tener pagos reales.
+
 ## 2026-07 — GitHub como única fuente de la verdad; método de trabajo
 
 **Decisión:** el repositorio es la fuente de la verdad. `CLAUDE.md` es la memoria

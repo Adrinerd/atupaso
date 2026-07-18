@@ -38,7 +38,8 @@ atupaso/
 ├── docs/                  # la fuente de la verdad documental
 │   ├── README.md          #   índice de la documentación
 │   ├── PROYECTO.md        #   qué es el negocio, público, promesa
-│   ├── GUIA-DE-MARCA.md   #   colores, tipografía, voz, palabras sí/no
+│   ├── PLAN-DE-NEGOCIO.md #   economía, moat, riesgos, fases go-to-market, métricas
+│   ├── GUIA-DE-MARCA.md   #   misión, valores, arquetipo, voz, color, tipografía
 │   ├── ARQUITECTURA.md    #   diseño técnico del backend (documento vivo)
 │   ├── DECISIONES.md      #   registro append-only de decisiones
 │   └── FASE1-SETUP.md     #   guía de despliegue del backend (no técnicos)
