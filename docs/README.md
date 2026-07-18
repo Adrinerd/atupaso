@@ -9,6 +9,7 @@ Fuente de la verdad documental del proyecto. Empieza por
 |---|---|
 | [PROYECTO.md](PROYECTO.md) | Qué es el negocio, a quién sirve, la promesa y los principios de producto |
 | [PLAN-DE-NEGOCIO.md](PLAN-DE-NEGOCIO.md) | Lógica económica, moat, riesgos, presupuesto, fases go-to-market y métricas |
+| [METODO.md](METODO.md) | El core del producto: ejercicios por nivel, 9 etapas del camino, triggers de progresión, seguridad y gamificación (v0.1 borrador) |
 | [GUIA-DE-MARCA.md](GUIA-DE-MARCA.md) | Misión, valores, arquetipo, voz, palabras sí/no, color, tipografía y estilo |
 | [ARQUITECTURA.md](ARQUITECTURA.md) | Diseño técnico completo del backend (documento vivo) |
 | [DECISIONES.md](DECISIONES.md) | Registro append-only de decisiones y su porqué |
