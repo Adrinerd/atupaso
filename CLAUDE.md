@@ -16,16 +16,18 @@ Detalle completo en [`docs/PROYECTO.md`](docs/PROYECTO.md).
 
 ## Estado actual
 
-| Fase | Qué es | Estado |
-|---|---|---|
-| 1 — Landing | Web de captación + Stripe Checkout | ✅ En producción (Vercel) |
-| 2 — Pagos | Suscripción, gracias/cancelado, captura de WhatsApp | ✅ Hecho |
-| 3 — Backend núcleo | BD (Supabase), webhooks, motor de mensajes | ✅ Código listo; pendiente de desplegar por el fundador |
-| — Automatización completa | Onboarding automático, dashboard | ⬜ Siguiente |
-| — IA | Clasificación, FAQ, riesgo de abandono | ⬜ Pendiente |
+La numeración canónica de fases vive en [`docs/ROADMAP.md`](docs/ROADMAP.md).
+Resumen:
 
-La numeración de fases del backend y su alcance están en
-[`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md) (§13, roadmap).
+| Fase | Nombre | Estado |
+|---|---|---|
+| 0 | Landing + pagos (Stripe) | ✅ En producción |
+| 1 | Núcleo técnico (BD, webhooks, motor) | ✅ Código listo; falta desplegar Supabase |
+| 2 | **Validación manual (modo concierge + panel /operador)** | ▶ En curso |
+| 3 | Conexión WhatsApp automática (Meta) | ⬜ Al validar la fase 2 |
+| 4 | Método completo (9 etapas, puertas) | ⬜ |
+| 5 | IA | ⬜ |
+| 6 | Escala (paid media, B2B) | ⬜ |
 
 ## Estructura del repositorio
 
@@ -39,6 +41,7 @@ atupaso/
 │   ├── README.md          #   índice de la documentación
 │   ├── PROYECTO.md        #   qué es el negocio, público, promesa
 │   ├── PLAN-DE-NEGOCIO.md #   economía, moat, riesgos, fases go-to-market, métricas
+│   ├── METODO.md          #   core del producto: ejercicios, niveles, progresión (v0.1)
 │   ├── GUIA-DE-MARCA.md   #   misión, valores, arquetipo, voz, color, tipografía
 │   ├── ARQUITECTURA.md    #   diseño técnico del backend (documento vivo)
 │   ├── DECISIONES.md      #   registro append-only de decisiones

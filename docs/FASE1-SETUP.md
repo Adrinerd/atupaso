@@ -2,8 +2,12 @@
 
 Guía paso a paso para dejar funcionando el núcleo: base de datos, webhooks
 de Stripe y WhatsApp, y el envío diario automático. Pensada para seguirla
-sin saber programar, con calma. Son cuatro bloques; solo el D depende de
-que Meta verifique tu empresa (empieza el bloque C cuanto antes por eso).
+sin saber programar, con calma. Son cuatro bloques.
+
+> **Importante (Fase 2 — modo manual):** para operar en modo concierge solo
+> necesitas los bloques **A, B y C**. El bloque **D (Meta/WhatsApp API) es de
+> la Fase 3**: no lo hagas hasta validar el negocio. Ver
+> [`OPERACION-MANUAL.md`](OPERACION-MANUAL.md) y [`ROADMAP.md`](ROADMAP.md).
 
 ---
 

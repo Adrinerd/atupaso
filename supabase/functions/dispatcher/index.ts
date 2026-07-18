@@ -22,6 +22,15 @@ const MAX_ATTEMPTS = 3;
 
 Deno.serve(async () => {
   const db = serviceClient();
+
+  // Fase 2 (modo concierge): el canal es manual. El guion del día lo
+  // muestra el panel /operador y el fundador envía desde su WhatsApp.
+  // Los mensajes quedan 'pending' a propósito: son la cola del panel.
+  const channelMode = await getConfig<string>(db, "channel_mode");
+  if (channelMode !== "meta") {
+    return Response.json({ mode: "manual", note: "Envío automático desactivado; usar /operador" });
+  }
+
   const phoneNumberId = await getConfig<string>(db, "wa_phone_number_id");
   if (!phoneNumberId || phoneNumberId.startsWith("CAMBIAR")) {
     return Response.json({ error: "wa_phone_number_id sin configurar en app_config" }, { status: 503 });

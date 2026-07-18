@@ -127,6 +127,20 @@ la verdad sobre si alguien paga el mes 2 antes de invertir en automatización y
 paid media. Documentado en `PLAN-DE-NEGOCIO.md` §11.
 **Alternativa descartada:** automatizar todo el sistema antes de tener pagos reales.
 
+## 2026-07 — Validación manual antes de conectar Meta (modo concierge)
+
+**Decisión:** la Fase 2 se opera SIN la API de WhatsApp. El fundador envía y
+recibe los mensajes con su propia app de WhatsApp; un panel de operador
+(`/operador`) le prepara el guion diario y registra cada resultado en la base
+de datos. El canal es un interruptor de configuración (`channel_mode`:
+`manual` → `meta`): al validar, conectar Meta no requiere construir nada.
+**Motivo:** validar retención y renovación con clientes reales a coste y
+riesgo cero, sin verificación de empresa en Meta ni número dedicado, y sin
+perder la base de datos como fuente de verdad (los datos de retención son el
+moat). Coherente con el principio rector: aprender rápido, no construir rápido.
+**Alternativa descartada:** conectar la Cloud API desde el primer cliente.
+**Además:** se unifica la numeración de fases en `docs/ROADMAP.md` (canónica).
+
 ## 2026-07 — GitHub como única fuente de la verdad; método de trabajo
 
 **Decisión:** el repositorio es la fuente de la verdad. `CLAUDE.md` es la memoria
