@@ -8,7 +8,8 @@ Fuente de la verdad documental del proyecto. Empieza por
 | Documento | Qué contiene |
 |---|---|
 | [PROYECTO.md](PROYECTO.md) | Qué es el negocio, a quién sirve, la promesa y los principios de producto |
-| [GUIA-DE-MARCA.md](GUIA-DE-MARCA.md) | Voz, palabras sí/no, color, tipografía y estilo visual |
+| [PLAN-DE-NEGOCIO.md](PLAN-DE-NEGOCIO.md) | Lógica económica, moat, riesgos, presupuesto, fases go-to-market y métricas |
+| [GUIA-DE-MARCA.md](GUIA-DE-MARCA.md) | Misión, valores, arquetipo, voz, palabras sí/no, color, tipografía y estilo |
 | [ARQUITECTURA.md](ARQUITECTURA.md) | Diseño técnico completo del backend (documento vivo) |
 | [DECISIONES.md](DECISIONES.md) | Registro append-only de decisiones y su porqué |
 | [FASE1-SETUP.md](FASE1-SETUP.md) | Guía de despliegue del backend, paso a paso, para no técnicos |
