@@ -7,6 +7,7 @@ Fuente de la verdad documental del proyecto. Empieza por
 
 | Documento | Qué contiene |
 |---|---|
+| [ROADMAP.md](ROADMAP.md) | **La numeración canónica de fases** y el estado del proyecto |
 | [PROYECTO.md](PROYECTO.md) | Qué es el negocio, a quién sirve, la promesa y los principios de producto |
 | [PLAN-DE-NEGOCIO.md](PLAN-DE-NEGOCIO.md) | Lógica económica, moat, riesgos, presupuesto, fases go-to-market y métricas |
 | [METODO.md](METODO.md) | El core del producto: ejercicios por nivel, 9 etapas del camino, triggers de progresión, seguridad y gamificación (v0.1 borrador) |
@@ -14,6 +15,7 @@ Fuente de la verdad documental del proyecto. Empieza por
 | [ARQUITECTURA.md](ARQUITECTURA.md) | Diseño técnico completo del backend (documento vivo) |
 | [DECISIONES.md](DECISIONES.md) | Registro append-only de decisiones y su porqué |
 | [FASE1-SETUP.md](FASE1-SETUP.md) | Guía de despliegue del backend, paso a paso, para no técnicos |
+| [OPERACION-MANUAL.md](OPERACION-MANUAL.md) | El manual del operador para la Fase 2 (modo concierge, panel /operador) |
 
 ## Cómo mantener esta documentación
 

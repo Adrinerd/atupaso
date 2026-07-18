@@ -9,6 +9,7 @@
 
 -- ---------- Configuración inicial ----------
 insert into app_config (key, value) values
+  ('channel_mode',        '"manual"'),
   ('wa_phone_number_id',  '"CAMBIAR_POR_EL_ID_DE_META"'),
   ('send_hour_local',     '8'),
   ('level_up_threshold',  '5'),
