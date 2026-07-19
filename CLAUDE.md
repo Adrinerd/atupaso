@@ -45,7 +45,10 @@ atupaso/
 │   ├── GUIA-DE-MARCA.md   #   misión, valores, arquetipo, voz, color, tipografía
 │   ├── ARQUITECTURA.md    #   diseño técnico del backend (documento vivo)
 │   ├── DECISIONES.md      #   registro append-only de decisiones
-│   └── FASE1-SETUP.md     #   guía de despliegue del backend (no técnicos)
+│   ├── FASE1-SETUP.md     #   guía de despliegue del backend (no técnicos)
+│   ├── OPERACION-MANUAL.md#   manual del operador (Fase 2, modo concierge)
+│   ├── ROADMAP.md         #   numeración canónica de fases y estado
+│   └── LEGAL.md           #   aspectos legales y fiscales (España), por fases
 ├── src/                   # la landing (Next.js 15 App Router)
 │   ├── app/               #   páginas, layout, rutas, SEO
 │   ├── components/        #   secciones y UI reutilizable

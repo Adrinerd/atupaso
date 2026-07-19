@@ -16,6 +16,7 @@ Fuente de la verdad documental del proyecto. Empieza por
 | [DECISIONES.md](DECISIONES.md) | Registro append-only de decisiones y su porqué |
 | [FASE1-SETUP.md](FASE1-SETUP.md) | Guía de despliegue del backend, paso a paso, para no técnicos |
 | [OPERACION-MANUAL.md](OPERACION-MANUAL.md) | El manual del operador para la Fase 2 (modo concierge, panel /operador) |
+| [LEGAL.md](LEGAL.md) | Aspectos legales y fiscales en España, en dos fases (MVP → validado) |
 
 ## Cómo mantener esta documentación
 

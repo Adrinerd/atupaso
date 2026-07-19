@@ -36,6 +36,12 @@ export function Footer() {
             Aviso legal
           </a>
           <a
+            href="/condiciones"
+            className="text-tinta-suave underline underline-offset-4 hover:text-tinta"
+          >
+            Condiciones de contratación
+          </a>
+          <a
             href="/privacidad"
             className="text-tinta-suave underline underline-offset-4 hover:text-tinta"
           >
